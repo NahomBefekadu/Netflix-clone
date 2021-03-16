@@ -1,0 +1,40 @@
+.signIn {
+  max-width: 20rem;
+  padding: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(0, 0, 0, 0.85);
+}
+.signIn__form {
+  display: flex;
+  flex-direction: column;
+}
+.signIn__form > h1 {
+  margin-bottom: 2.315rem;
+  text-align: left;
+}
+.signIn__form > input {
+  padding: 0.315rem 0.75rem;
+  margin-bottom: 0.875rem;
+  outline-width: 0;
+  height: 2rem;
+  border: none;
+  max-width: 37.5rem;
+  border-radius: 0.315rem;
+}
+.signIn__button {
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  background-color: #e50914;
+  color: white;
+  font-weight: 600;
+  padding: 1rem 1.25rem;
+  border-radius: 0.315rem;
+}
+.signIn__formFoot {
+  color: grey;
+}
+.signIn__formLink:hover {
+  cursor: pointer;
+}
