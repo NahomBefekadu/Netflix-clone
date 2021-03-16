@@ -1,0 +1,73 @@
+.profile {
+  height: 100vh;
+}
+.profile__body {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 8%;
+  max-width: 50rem;
+}
+.profile__body > h1 {
+  font-size: 5rem;
+  font-weight: 400;
+  color: white;
+  border-bottom: 1px solid#282c2d;
+  margin-bottom: 2rem;
+}
+.profile__info {
+  display: flex;
+}
+.profile__info > img {
+  height: 6.25rem;
+}
+.profile__details {
+  margin-left: 2rem;
+  flex: 1;
+  color: white;
+}
+.profile__details > h2 {
+  background-color: grey;
+  padding: 0.95rem;
+  font-size: 0.95rem;
+  padding-left: 1.25rem;
+}
+
+.profile__plans {
+  margin-top: 1.25rem;
+}
+.profile__plans > h3 {
+  margin-bottom: 1.25rem;
+  border-bottom: 1px solid #282c2d;
+}
+.profile__plans > p {
+  margin-bottom: 1.25rem;
+}
+.profile__plan {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.profile__plan > button {
+  font-size: 1rem;
+  width: 7.325rem;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.profile__plan:hover {
+  transform: scale(1.03);
+}
+.profile__signOutButton {
+  padding: 0.875rem 1.25rem;
+  font-size: 1rem;
+  margin-top: 5%;
+  width: 100%;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
