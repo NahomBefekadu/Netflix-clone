@@ -7,13 +7,16 @@
 }
 .row__posters {
   display: flex;
+  flex-wrap: nowrap;
   overflow-y: hidden;
   overflow-x: scroll;
   padding: 1.25rem;
+  -webkit-overflow-scrolling: touch;
 }
 .row__posters::-webkit-scrollbar {
   display: none;
 }
+
 .row__poster {
   max-height: 6.25rem;
   object-fit: contain;

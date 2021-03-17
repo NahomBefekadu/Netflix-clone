@@ -45,22 +45,7 @@
 .profile__plans > p {
   margin-bottom: 1.25rem;
 }
-.profile__plan {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 2rem;
-}
-.profile__plan > button {
-  font-size: 1rem;
-  width: 7.325rem;
-  background-color: #e50914;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-.profile__plan:hover {
-  transform: scale(1.03);
-}
+
 .profile__signOutButton {
   padding: 0.875rem 1.25rem;
   font-size: 1rem;
