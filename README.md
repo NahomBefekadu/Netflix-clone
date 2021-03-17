@@ -1,6 +1,6 @@
 # Netflix Clone
 
-This project is a clone of Netflix application, made in concert with Firebase for storage/hosting and stripe API for payment platform functionality.
+This project is a clone of Netflix application, made in concert with Firebase for storage/hosting, the movieDB api for data and stripe API for payment platform functionality.
 
 ## Demo
 
