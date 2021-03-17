@@ -9,6 +9,8 @@ function Plans() {
   const [products, setProducts] = useState([]);
   const user = useSelector(selectUser);
   const [subscription, setSubscription] = useState(null);
+  const STRIPE_KEY = process.env.REACT_APP_STRIPE_KEY;
+
   useEffect(() => {
     db.collection("customers")
       .doc(user.uid)
@@ -67,9 +69,7 @@ function Plans() {
 
       if (sessionId) {
         //redirect to checkout as there is a session- init strip
-        const stripe = await loadStripe(
-          "pk_test_51IVmzwI7uNdnvCwFph5n16w8NdWLYxTP33AnPf89LOKJ14UPiWPhNOcTxluYuCSnpJPUO12StUXXRlSMrTyGxDzd00Bd77zOYd"
-        );
+        const stripe = await loadStripe(`${STRIPE_KEY}`);
         stripe.redirectToCheckout({ sessionId });
       }
     });
@@ -140,4 +140,7 @@ export default Plans;
           <h5>4K+HDR</h5>
         </div>
         <button>Subscribe</button>
-      </div> */
+      </div> 
+       
+
+      */
