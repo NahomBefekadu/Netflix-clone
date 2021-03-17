@@ -1,3 +1,13 @@
+# Netflix Clone
+
+This project is a clone of Netflix application, made in concert with Firebase for storage/hosting and stripe API for payment platform functionality.
+
+## Demo
+
+Use this link to test application : https://netflix-nemo-clone.web.app/
+
+For payment functionality do not use your own card Stripe provides a test card Just put a series of 4242 for card number/month/cvc and any word for name, address and etc..
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Available Scripts
